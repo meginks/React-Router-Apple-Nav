@@ -1,7 +1,6 @@
 const appleData = [
     {
-        navItem: "Mac", 
-        id: "0",
+        id: "mac", 
         subNav: [
             "MacBook",
             "MacBook Air",
@@ -16,8 +15,7 @@ const appleData = [
         ]
     }, 
     {
-        navItem: "iPad",
-        id: "1",
+        id: "ipad",
         subNav: [
             "iPad Pro", 
             "iPad Pro 10.5in",
@@ -31,8 +29,7 @@ const appleData = [
         ]
     }, 
     {
-        navItem: "iPhone",
-        id: "2",
+        id: "iphone",
         subNav: [
             "iPhone Xs",
             "iPhone Xr",
@@ -45,8 +42,7 @@ const appleData = [
         ]
     },
     {
-        navItem: "Watch", 
-        id: "3",
+        id: "watch", 
         subNav: [
             "AppleWatch Series 4",
             "Apple Watch Nike+",
@@ -59,8 +55,7 @@ const appleData = [
         ]
     }, 
     {
-        navItem: "TV", 
-        id: "4",
+        id: "tv",
         subNav: [
             "Apple TV 4K",
             "Apple TV",
@@ -70,8 +65,7 @@ const appleData = [
         ]
     }, 
     {
-        navItem: "Music", 
-        id: "5",
+        id: "music",
         subNav: [
             "Apple Music",
             "iTunes",
@@ -82,6 +76,6 @@ const appleData = [
             "Gift Cards"
         ]
     }
-]
+] 
 
 export default appleData; 
