@@ -1,3 +1,27 @@
+* {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+}
+
+.nav-bar {
+    display: flex;
+    align-items: space-between;
+    justify-content: space-between;
+}
 .main-link {
-    margin: 20px;
+    font-size: 3rem;
+    padding: .5rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+li {
+    list-style-type: none;
+    font-size: 1.5rem;
+    padding: .5rem;
 }

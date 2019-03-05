@@ -2,7 +2,7 @@ import React from 'react';
 
 const IpadNav = (props) => {
     return (
-        <div>
+        <ul>
             <li>iPad Pro</li> 
             <li>iPad Pro 10.5in</li>
             <li>iPad 9.7in</li>
@@ -12,7 +12,7 @@ const IpadNav = (props) => {
             <li>Smart Keyboard</li>
           <li>Accessories</li>
             <li>Compare</li>
-        </div>
+        </ul>
     )
 }
 

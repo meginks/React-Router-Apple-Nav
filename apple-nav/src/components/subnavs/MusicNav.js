@@ -2,7 +2,7 @@ import React from 'react';
 
 const MusicNav = (props) => {
     return (
-        <div>
+        <ul>
             <li>Apple Music</li> 
             <li>iTunes</li>
             <li>HomePod</li>
@@ -10,7 +10,7 @@ const MusicNav = (props) => {
             <li>iPod Touch</li>
           <li>Accessories</li>
             <li>Compare</li>
-        </div>
+        </ul>
     )
 }
 

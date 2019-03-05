@@ -2,7 +2,7 @@ import React from 'react';
 
 const WatchNav = (props) => {
     return (
-        <div>
+        <ul>
             <li>AppleWatch Series 4</li> 
             <li>AppleWatch Nike+</li>
             <li>AppleWatch Hermes</li>
@@ -11,7 +11,7 @@ const WatchNav = (props) => {
             <li>Bands</li>
           <li>Accessories</li>
             <li>Compare</li>
-        </div>
+        </ul>
     )
 }
 

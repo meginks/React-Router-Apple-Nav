@@ -3,7 +3,7 @@ import React from 'react';
 const MacNav = (props) => 
 {
     return (
-        <div>
+        <ul>
             <li>MacBook</li>
             <li>MacBook Air</li>
             <li>MacBook Pro</li>
@@ -14,7 +14,7 @@ const MacNav = (props) =>
             <li>Accessories</li>
             <li>Mojave</li>
             <li>Compare</li>
-        </div>
+        </ul>
     )
 }
 

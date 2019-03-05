@@ -2,7 +2,7 @@ import React from 'react';
 
 const IphoneNav = (props) => {
     return (
-        <div>
+        <ul>
             <li>iPhone Xs</li> 
             <li>iPhone Xr</li>
             <li>iPhone 8</li>
@@ -11,7 +11,7 @@ const IphoneNav = (props) => {
             <li>AirPods</li>
           <li>Accessories</li>
             <li>Compare</li>
-        </div>
+        </ul>
     )
 }
 
